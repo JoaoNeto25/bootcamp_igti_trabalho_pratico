@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+}
+
+h1 {
+  font-family: monospace;
+  margin-left: 450px;
+  align-items: center;
+}
+
+#grid- {
+  width: 60%;
+  position: fixed;
+}
+#rangeColor {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 30px;
+}
+
+#rangeColor {
+  margin-top: 30px;
+}
+
+#rangeColor label {
+  width: 120px;
+}
+#rangeColor input[type='range'] {
+  width: 150vh;
+}
+
+#rangeColor input[type='text'] {
+  width: 100px;
+  margin-left: 20px;
+}
+
+#colorBox {
+  width: 180px;
+  height: 150px;
+  border: solid 1px #000;
+  margin: auto auto 20px auto;
+}

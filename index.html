@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho - Desafio 01</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>RGB Preview</h1>
+    <div id="grid">
+      <div id="rangeColor">
+        <label for="rangeR"><strong>(R) Red:</strong></label>
+        <input id="rangeRed" type="range" min="0" max="255" />
+        <input id="text-r" type="text" value="0" disabled />
+      </div>
+
+      <div id="rangeColor">
+        <label for="rangeG"><strong>(G) Green:</strong></label>
+        <input id="rangeGreen" type="range" min="0" max="255" />
+        <input type="text" id="text-g" value="0" disabled />
+      </div>
+
+      <div id="rangeColor">
+        <label for="rangeB"><strong>(B) Blue:</strong></label>
+        <input id="rangeBlue" type="range" min="0" max="255" />
+        <input type="text" id="text-b" value="0" disabled />
+      </div>
+      <div id="colorBox"></div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
